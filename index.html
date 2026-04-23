@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CyberStay - Gaming Airbnb</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: #0b0f1a;
+    color: white;
+}
+
+/* NAV */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background: rgba(0,0,0,0.6);
+    position: fixed;
+    width: 100%;
+}
+
+nav h2 {
+    color: #00f0ff;
+}
+
+/* HERO */
+.hero {
+    height: 100vh;
+    background: url('https://images.unsplash.com/photo-1603484477859-abe6a73f9366') center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 60px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.btn {
+    padding: 12px 25px;
+    background: #00f0ff;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* SECTION */
+.section {
+    padding: 80px 50px;
+    text-align: center;
+}
+
+/* FEATURES */
+.features {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 280px;
+    margin: 20px;
+    padding: 20px;
+    background: #121826;
+    border-radius: 10px;
+}
+
+/* ROOMS */
+.rooms {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.room {
+    width: 300px;
+    margin: 15px;
+}
+
+.room img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* FOOTER */
+footer {
+    padding: 20px;
+    text-align: center;
+    background: black;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+    <h2>CyberStay</h2>
+    <div>Book | Explore | Contact</div>
+</nav>
+
+<div class="hero">
+    <div>
+        <h1>Stay. Play. Dominate.</h1>
+        <p>The Future of Gaming Airbnb</p>
+        <button class="btn">Book Now</button>
+    </div>
+</div>
+
+<div class="section">
+    <h2>Why CyberStay?</h2>
+    <div class="features">
+        <div class="card">
+            <h3>High-End PCs</h3>
+            <p>RTX 4080 setups with 240Hz monitors</p>
+        </div>
+        <div class="card">
+            <h3>Ultra Fast WiFi</h3>
+            <p>Low latency for competitive gaming</p>
+        </div>
+        <div class="card">
+            <h3>Themed Rooms</h3>
+            <p>FPS, MOBA, RPG styled environments</p>
+        </div>
+    </div>
+</div>
+
+<div class="section">
+    <h2>Featured Rooms</h2>
+    <div class="rooms">
+        <div class="room">
+            <img src="https://images.unsplash.com/photo-1598550476439-6847785fcea6">
+            <p>FPS Battle Room</p>
+        </div>
+        <div class="room">
+            <img src="https://images.unsplash.com/photo-1605902711622-cfb43c4437d1">
+            <p>MOBA Strategy Room</p>
+        </div>
+        <div class="room">
+            <img src="https://images.unsplash.com/photo-1616588589676-62b3bd1caa1a">
+            <p>Streaming Setup Room</p>
+        </div>
+    </div>
+</div>
+
+<div class="section">
+    <h2>Who Is This For?</h2>
+    <p>Gamers • Travelers • Content Creators</p>
+</div>
+
+<div class="section">
+    <h2>Starting at $150/night</h2>
+    <button class="btn">Reserve Your Setup</button>
+</div>
+
+<footer>
+    <p>© 2026 CyberStay | Gaming Airbnb</p>
+</footer>
+
+</body>
+</html>
